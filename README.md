@@ -104,16 +104,16 @@ Please check out this [video](https://drive.google.com/file/d/1DmJywG85k4h2NRHRi
 
 ### **Screenshots**
 --- 
-GIF of Category Routes 
+GIF of Category Routes <br>
 ![GIF of Category Routes](./assets/screenshots/categoryroutes.gif)
 <br>
-GIF of Product Routes 
+GIF of Product Routes <br>
 ![GIF of Product Routes](./assets/screenshots/productroutes.gif)
 <br>
-GIF of Tag Routes 
+GIF of Tag Routes <br>
 ![GIF of Tag Routes](./assets/screenshots/tagroutes.gif)
 <br>
-GIF of Deployed Site
+GIF of Deployed Site <br>
 ![gif of deployed site](./assets/screenshots/deployedHeroku.gif)
 <br>
 <br>

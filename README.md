@@ -1,4 +1,4 @@
-# **[eCommerce Back End](URL)**
+# **[eCommerce Back End](https://peaceful-lake-44963.herokuapp.com/)**
 
 ![Badge](https://img.shields.io/badge/license-MIT-blue)
 
@@ -76,9 +76,9 @@ NPM Packages
 
 ## Description
 ---
-
+The goal of this project is to assist an e-commerce company in organzing it's retail database. This allows for ease of use to find products in the system, as well as find associated categories and tags. This project configures an API through Express.js and utilizes Sequelize to interact with a MySql database. By following the installation and usage instructions in this README, you can use this program too! Create a ".env" file with your environmental variables (database name, mySql username, and mySql password). Run the commands specified to develop the database and seed it with data (if desired). Start the server and perform Get/Post/Put/Delete routes to the API to see it in action. This program has full CRUD functionality (create, read, update and delete)! Through this project I learned how to use sequelize to interact with the database and create a fully functional API. 
  <br><br>
-To view this project deployed, click [here](URL). <br><br>
+To view this project deployed, click [here](https://peaceful-lake-44963.herokuapp.com/). <br><br>
 
 ## Usage 
 ---
@@ -86,7 +86,7 @@ After following the instructions in installation:
 1. Open the database file in your terminal. 
 2. Run command "mysql -uroot -p" and enter your password (note: keystrokes will not show).
 3. Run command "SOURCE schema.sql" to set up the database and tables.
-4. Run command "use databasename_db".
+4. Optionally, run command "npm run resetdb" to replace steps 2 and 3 (enter password when prompted).
 5. OK to 'quit' MySql.
 6. Create a file called ".env" in the root folder of the program. In this folder include the following information: <br>
 DB_NAME='' <br>
@@ -100,13 +100,22 @@ DB_PW='' <br>
 12. When finished, run CONTROL-C in terminal to end stop nodemon, and trash the session. 
 
 <br>
-Please check out this [video](URL) for a demonstration of how to use this program. 
+Please check out this [video](https://drive.google.com/file/d/1DmJywG85k4h2NRHRiwhJ4HRzHdPwSgnV/view) for a demonstration of how to use this program. 
 
 ### **Screenshots**
 --- 
-![screenshot](ADD URL HERE)
+GIF of Category Routes 
+![GIF of Category Routes](./assets/screenshots/categoryroutes.gif)
 <br>
-
+GIF of Product Routes 
+![GIF of Product Routes](./assets/screenshots/productroutes.gif)
+<br>
+GIF of Tag Routes 
+![GIF of Tag Routes](./assets/screenshots/tagroutes.gif)
+<br>
+GIF of Deployed Site
+![gif of deployed site](./assets/screenshots/deployedHeroku.gif)
+<br>
 <br>
 
 ## Contributing 

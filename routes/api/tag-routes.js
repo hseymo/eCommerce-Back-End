@@ -34,7 +34,6 @@ router.get('/:id', async (req, res) => {
 });
 
 router.post('/', async (req, res) => {
-    // TODO: describe req.body??? folder 19 route api userRoutes example
   try {
   // create a new tag
       const newTag = await Tag.create(req.body);
@@ -45,7 +44,6 @@ router.post('/', async (req, res) => {
 });
 
 router.put('/:id', async (req, res) => {
-    // TODO: describe req.body???
   try {
   // update a tag's name by its `id` value
       const updateTag = await Tag.update(req.body, {
